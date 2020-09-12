@@ -1,0 +1,165 @@
+
+/*
+==========================
+COMMON CSS
+==========================
+*/
+*{margin: 0; padding: 0;}
+body{box-sizing: border-box; }
+ul{list-style-type: none;}
+a{text-decoration: none;}
+a:hover{text-decoration: none;}
+h1,h2,h3,h4{font-family: 'Cormorant Garamond', serif;}
+p{font-family: 'Poppins', sans-serif ;}
+
+.btn {
+ background: #82F4D3;    margin-top: 20px;
+    font-weight: 600; font-size: 16px; padding: padding: 5px 15px;
+   }
+
+/*
+==========================
+HEADER AREA CSS
+==========================
+*/
+header .left{float: left; margin-top: 30px;}
+header .right nav ul{margin:0; padding: 0;}
+header .right nav ul li {display: inline-block; padding: 30px 30px;}
+header .right nav ul li a {display:block; color: #6C6C6E}
+
+header .right .cart-icon {display: inline-block; float:right; }
+header .right .cart-icon i{padding: 30px 5px; margin-top: 5px; color: #B8B7BB;}
+
+
+
+/*
+==========================
+SLIDER AREA CSS
+==========================
+*/
+.cover{position: relative; }
+.cover-img{height: 85vh; width: 100%;}
+.cover .hero-content{position: absolute; top:100px; bottom: 0; left: 110px; right: 0;}
+.cover .hero-content .btnn {
+ display: block; margin-left: 180px; background: #82F4D3;   width: 150px; margin-top: 20px;
+ font-weight: 600; font-size: 16px; padding: 8px;
+}
+.cover .hero-content .btnn a{color: #000;}
+
+.cover .social_media{position: absolute; top:350px; right: 10px; bottom:0; height: 120px; padding: 15px;}
+.cover .social_media ul li{margin-bottom: 10px;  }
+.cover .social_media ul li a{ display:block;  text-align: center;background: #000; padding: 5px; border-radius: 44%; color: #fff; transition: .5s; }
+.cover .social_media ul li a:hover{background: #fff; color: #000; transform: rotate(360deg);}
+
+
+/*
+==========================
+PRODUCT AREA CSS
+==========================
+*/
+.product{padding: 40px;}
+.product .product-left{width: 450px;height: 430px;background: #EDEDED;position: relative;}
+.product img{ position: absolute; top:-30px; bottom: 0; left: 50px; right: 0;}
+
+.product-right{margin-top: 200px;}
+.product-right .btn{float: right; box-shadow: 5px 10px #EDEDED}
+
+
+/*
+==========================
+NEW ARRIVAL AREA CSS
+==========================
+*/
+
+.new_arrival{padding: 40px; }
+.new_arrival h4{font-size: 30px;}
+.new_arrival .row{margin-top: 30px; }
+.new_arrival .arrival_content img{display: block; max-width: 100%; margin-bottom: 40px;}
+.new_arrival .arrival_content h3{display :inline; font-size: 25px; letter-spacing: -1px; margin-right: 20px;}
+.new_arrival .arrival_content span{font-size:15px; color: #D0D0D0; }
+.new_arrival .arrival_content p {margin-top: 15px; color:#A0A0A0; font-size: 20px;}
+
+.new_arrival .arrival_content .view_details{width: 255px; height: 305px; background: #90F3D7; }
+
+.new_hover{position: relative;overflow:hidden ; }
+.new_hover:hover .new_arriva_hover{top:0;}
+.new_arriva_hover { position: absolute;top: 100%;bottom: 130px;left: 15px;right: 15px; background: #3eb37d8f;transition: .5s;}
+.view_detail{position: absolute;top: 50%;left: 30%;transition: 1s;}
+.view_detail a{ color: #fff; border: 2px solid #fff; padding: 5px;}       
+
+
+/*
+==========================
+COLLECION AREA CSS
+==========================
+*/
+
+
+.collection{padding: 40px; height: 85vh;}
+.collection .collecion_left{margin-top:30%; }
+.collection .collecion_left h2{font-size: 40px; }
+.collection .collecion_left p{font-size: 10px;}
+.collection .collecion_left .btn{ box-shadow: -10px -10px #EDEDED}
+
+
+.collection .collection_right img{height:350px; width: 300px; box-shadow: 120px 140px #96EAD2; border: 4px solid #FEFEFF;}
+
+
+/*
+==========================
+TESIMONIAL AREA CSS
+==========================
+*/
+.testimonial{background: #F8F8F8; text-align: center; padding: 40px; height: 40vh;}
+.testimonial .test_left,.test_right {margin-top: 50px; }
+.testimonial .test_left a,.testimonial .test_right a{color:#E3E3E3; font-size: 50px;}
+
+.test_content h2{margin-bottom: 30px;}
+.test_content p{font-size:15px; color: #BDBDBD;}
+.test_content h4 a{font-size: 18px; margin-top:35px; color: #7E7E7E;margin-bottom: 15px;} 
+.test_content span{color: #90DCC4;  font-size: 15px;}
+
+/*
+==========================
+BLOG AREA CSS
+==========================
+*/
+
+.blog{padding: 40px;margin-bottom: 50px; }
+.blog h2{margin-bottom: 80px; text-align: center;}
+.blog .blog_left .img1 img {height: 350; width: 300px;}
+.blog .blog_left .img1{position: relative;}
+.blog .blog_left .img1 img{box-shadow: -18px -18px 0px 18px #F9F9F9;}
+
+.blog .blog_left .img2{position: absolute; top: 100px; bottom:0; left:200px; right: 0; }
+
+
+.blog .blog_right h3{ font-size: 30px; margin-bottom: 30px;}
+.blog .blog_right p{font-size: 15px; color: #888888;}
+.blog .blog_right .btn{float:right; display: inline-block;}
+
+.next_icon{ float: right; margin-top:150px ; margin-right: -100px;}
+.next_icon .icon1{color: #000;}
+.next_icon .icon2{color: #A2F2DB;}
+.next_icon .icon3{color: #E1E1E1;}
+
+.next_icon ul li{display: inline; margin-right: 20px;}
+
+
+/*
+==========================
+CONCACT AREA CSS
+==========================
+*/
+
+.contact .container{border-top: 3px solid #EEEEEE; padding: 40px;}
+.contact ul li a{color: #888888;}
+.contact_content {}
+.contact_content h4 {font-size: 22px; margin-bottom: 30px;}
+.contact_content input[type="text"]{background:#FFFFFF; border: none; box-shadow: 0px 0px 8px 15px #F8F8F8; outline: none;}
+.contact_content input[type="button"]{background: #82F4D3; color: #000; border: none; padding: 7px;}
+
+.contact_social{margin:20px;}
+.contact_social ul{margin: 0; padding: 0;}
+.contact_social ul li{display: inline; margin-right: 15px;}
+.contact_social ul li a:hover{color: #82F4D3; transition: .5s;}
